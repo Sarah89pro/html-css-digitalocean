@@ -43,7 +43,8 @@ p {
 /* HEADER*/
 .main-header {
     width: 100%;
-    height: 60px;
+    line-height: 40px;
+    padding-top: 10px;
 }
 
 .main-header img {
@@ -211,11 +212,15 @@ p {
 }
 
 .slide-sec.two .gallery {
-    width: 50%;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+}
+
+.slide-sec.two .gallery-slide {
+    width: 50%;
+    display: inline-block;
 }
 
 .slide-sec.two .gallery a {
@@ -322,6 +327,8 @@ p {
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
     margin-bottom: 10px;
 }
 
@@ -332,6 +339,8 @@ p {
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
     margin-bottom: 10px;
     box-shadow: 1px 2px 8px -4px #707070;
 }
