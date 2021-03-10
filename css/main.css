@@ -1,0 +1,313 @@
+/*GENERAL*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #122958;
+}     
+
+/* UTILITIES */
+p {
+    font-size: 22px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.relative {
+    position:relative;
+} 
+
+.fixed {
+    position: fixed;
+}
+
+.pd-top {
+    padding-top: 20px;
+}
+
+.pd-bottom {
+    padding-bottom: 30px;
+}
+
+.mrg-b {
+    margin-bottom: 15px;
+}
+
+/*ALL SECTIONS*/
+/* HEADER*/
+.main-header {
+    width: 100%;
+    height: 60px;
+}
+
+.main-header img {
+    max-width: 130px;
+}
+
+.main-header ul li a {
+    font-weight: bold;
+    color: #122958;
+}
+
+.main-header .menu i {
+    color: #2486fd;
+}
+
+.main-header ul li a:hover {
+    text-decoration: none;
+    color: #2486fd;
+}
+
+.main-header ul .sa-btn {
+    color: #2486fd;
+}
+
+.main-header ul .sa-btn:hover {
+    color: #fff;
+    background-color: #2486fd;
+}
+
+/*JUMBOTRON*/
+.sa-jumbotron {
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sa-jumbotron .form {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.sa-jumbotron input {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.sa-jumbotron .form .sa-btn-g img {
+    max-width: 20px;
+    position: absolute;
+    left:10px;
+} 
+
+.sa-jumbotron .cookie {
+    font-size: 12px;
+}
+
+.sa-jumbotron .cookie a {
+    text-decoration: underline;
+}
+
+.sa-jumbotron .form .sa-btn-acc:hover {
+    color: #2486fd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sa-jumbotron .form .sa-btn-g:hover {
+    color: #504e4e;
+    cursor: pointer;
+}
+
+/*CLIENTS SEC*/
+.clients {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.clients h4 {
+    text-transform: uppercase;
+}
+
+.clients .logos {
+    width: 100%;
+}
+
+.clients .logos img {
+    margin: 10px 15px;
+    width: calc((100% / 2) - 40px);
+}
+
+/*DEPLOY SEC*/
+.deploy-sec aside ul {
+    list-style: none;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    border-left: 1px solid #747474;
+}
+
+.deploy-sec aside ul a {
+    font-size: 18px;
+    color: #747474;
+}
+
+.deploy-sec .box p {
+    font-size: 16px;
+}
+
+/*SLIDE SEC*/
+.slide-sec .gallery {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    padding: 0 40px;
+}
+
+.slide-sec .gallery img {
+    max-width: 60%;
+    margin-bottom: 20px;
+}
+
+
+/*SERVICE SEC*/
+.all-service .service {
+    margin-top: 20px;
+}
+
+.all-service .service img {
+    margin-bottom: 20px;
+}
+
+.all-service .service p {
+    font-size: 16px;
+}
+
+.all-service .service a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2486fd;
+}
+
+
+
+
+
+
+
+
+
+/*Colours*/
+.c-bluea {
+    color: #2486fd;
+}
+
+.c-blue {
+    color: #122958;
+}
+
+.c-white {
+    color: #fff;
+}
+
+.c-grey {
+    color: #7c7c7c;
+}
+
+.glass-op {
+    opacity: 0.9;
+}
+
+.bk-white {
+    background-color: #fff;
+}
+
+.bk-bluea {
+    color: #2486fd;
+}
+
+.bk-grey {
+    background-color: #f3f5f9; 
+}
+
+/*Buttons*/
+.sa-btn {
+    padding: 6px 10px;
+    color: #2486fd;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
+.sa-btn-acc {
+    background-color: #2486fd;
+    color: #fff;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sa-btn-g {
+    background-color: #fff;
+    color: #7c7c7c;
+    border: transparent;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 8px -4px #707070;
+}
+
+/*Specials*/
+.chevron {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 10px
+}
+
+.slider {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #2486fd;
+    border-radius: 50%;
+}
+
+.slider.on {
+    background-color: #2486fd;
+}
+
+
+
+
+/*RESPONSIVE*/
+
+/* Tablet (from 768px to 991px) */
+@media screen and (min-width: 768px) {
+    /*CLIENTS SEC*/
+    .clients .logos img {
+        margin: 10px 20px;
+        width: calc((100% / 6) - 50px);
+    }
+
+    /*DEPLOY SEC*/
+    .deploy-sec .dep-contents {
+        padding-top: 60px;
+    }
+    .deploy-sec .box {
+        margin-bottom: 20px;
+        height: 180px;
+    }
+
+    /*SLIDE SEC*/
+    .slide-sec .gallery {
+        margin-bottom: 90px;
+    }
+}
+
+/* Desktop (from 992px) */
+@media screen and (min-width: 992px) {
+    /*TITLE*/
+    h1 {
+        font-size: 60px;
+    }
+
+    /* SECTIONS*/
+    /*SLIDE SEC*/
+    .slide-sec .gallery {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+}
